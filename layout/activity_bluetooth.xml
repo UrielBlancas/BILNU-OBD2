@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".BluetoothActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/blueOne"
+        android:textStyle="bold"
+        android:text="Configuración Bluetooth"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+    <!--Muestra cuando el Bluetooth esta disponible o no-->
+    <!--Boton On-->
+        <Button
+        android:id="@+id/onBtn"
+        android:layout_width="220dp"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Activar Bluetooth"
+        android:drawableRight="@mipmap/ic_bluetooth1"
+        />
+    <Button
+        android:id="@+id/pairingBtn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:textSize="16sp"
+        android:drawableRight="@mipmap/ic_bluetoothsearch"
+        />
+
+    <TextView
+        android:minWidth="220dp"
+        android:id="@+id/pairedTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:background="@color/blueOne"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        />
+    <ListView
+        android:id="@+id/pairedDevicesLv"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp" />
+    <TextView
+        android:minWidth="220dp"
+        android:id="@+id/newDevicesTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:background="@color/blueOne"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        />
+    <ListView
+        android:id="@+id/scanDevicesLv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

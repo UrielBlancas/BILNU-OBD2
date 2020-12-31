@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".fragments.homeFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/blueOne"
+        android:textStyle="bold"
+        android:text="BILNU OBD2 SCANNER"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+    <ImageView
+        android:id="@+id/imagenInicio"
+        android:layout_width="410dp"
+        android:layout_height="330dp"
+        android:contentDescription="@string/imagen_inicio"
+        android:src="@drawable/foto_pantalla_inicio" />
+    <TextView
+        android:id="@+id/estadoText"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Verifica tu conexión:"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/botonConectar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawableRight="@mipmap/ic_bluetooth1"
+        android:text="Bluetooth"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:id="@+id/conectarImgBtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/tacometro_1"
+        android:contentDescription="@string/imagen_boton_conectar" />
+
+    <TextView
+        android:id="@+id/tacometro"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="@string/datos_en_tiempo_real"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+
+</LinearLayout>
