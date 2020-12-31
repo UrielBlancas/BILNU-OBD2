@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.aboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/blueOne"
+        android:textStyle="bold"
+        android:text="Acerca de"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:id="@+id/imageAboutSection"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/hello_blank_fragment"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="1dp"
+        android:layout_marginStart="-100dp"
+        android:layout_marginVertical="60dp"
+        android:src="@mipmap/ic_aboutsection" />
+
+    <TextView
+        android:id="@+id/bilnu_about"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="@string/BILNU_aboutFragment"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="1dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginVertical="70dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/version_bilnu"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:text="@string/version"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="1dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginVertical="100dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/informacion_about"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="170dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:text="@string/aboutFragment"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/informacion_about2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutFrame_2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="260dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/informacion_about3"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="340dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:text="@string/aboutFrame_3"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/informacion_about4"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="390dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:text="@string/aboutFrame_4"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/informacion_about5"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="109dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="430dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:text="@string/aboutFrame_5"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+</FrameLayout>
