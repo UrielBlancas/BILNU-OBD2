@@ -25,7 +25,7 @@ public class ObdSelectionCommands extends AppCompatActivity {
 
         ArrayList<String> list = new ArrayList();
         list.add("Presión barométrica");
-        list.add("Presion de combustible");
+        list.add("Presión de combustible");
         list.add("Presión del riel de combustible");
         list.add("Temperatura de entrada de aire");
         list.add("Temperatura ambiente");
@@ -43,12 +43,8 @@ public class ObdSelectionCommands extends AppCompatActivity {
         list.add("Encendido del motor");
         list.add("Voltaje del módulo");
         list.add("Avance de tiempo");
-        list.add("Comando VIN");
         list.add("Códigos de problemas permanentes");
-        list.add("Códigos de problemas");
-        list.add("Códigos de problemas pendientes");
         list.add("Comando de carga absoluta");
-        list.add("Temperatura del aceite");
         list.add("Posición del acelerador");
 
 
